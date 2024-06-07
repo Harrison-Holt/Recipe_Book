@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../assets/kitchen_background.jpg);
+    background-size: cover;
+    background-repeat:  no-repeat;
+    min-height: 100vh; 
+    min-width: 100vh; 
+}
+
