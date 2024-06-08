@@ -6,8 +6,8 @@ import 'font-awesome/css/font-awesome.min.css';
 const Header = lazy(() => import('./UI/Header'));
 const Footer = lazy(() => import('./UI/Footer'));
 const HomePage = lazy(() => import('./Pages/HomePage'));
-const Register = lazy(() => import('./Pages/Register'));
-const Login = lazy(() => import('./Pages/Login'));
+const Register = lazy(() => import('./Pages/register'));
+const Login = lazy(() => import('./Pages/login'));
 
 function App() {
   return (
