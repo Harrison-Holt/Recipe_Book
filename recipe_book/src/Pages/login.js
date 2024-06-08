@@ -9,7 +9,6 @@ function Login() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        // Example login logic
         if (username === 'admin' && password === 'password') {
             // Redirect to the homepage if login is successful
             navigate('/homepage');
