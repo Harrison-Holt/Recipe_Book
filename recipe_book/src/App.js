@@ -7,7 +7,7 @@ const Header = lazy(() => import('./UI/Header'));
 const Footer = lazy(() => import('./UI/Footer'));
 const HomePage = lazy(() => import('./Pages/HomePage'));
 const Register = lazy(() => import('./Pages/Register'));
-const Login = lazy(() => import('./Pages/Login'));
+const Login = lazy(() => import('./Pages/login'));
 
 function App() {
   return (
