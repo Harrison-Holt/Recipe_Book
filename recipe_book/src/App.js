@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 
-const Header = lazy(() => import('./UI/Header'));
-const Footer = lazy(() => import('./UI/Footer'));
-const HomePage = lazy(() => import('./Pages/HomePage'));
-const Register = lazy(() => import('./Pages/register'));
+const Header = lazy(() => import('./UI/header'));
+const Footer = lazy(() => import('./UI/footer'));
+const HomePage = lazy(() => import('./Pages/homepage'));
 const Login = lazy(() => import('./Pages/login'));
+const Register = lazy(() => import('./Pages/register'));
+
 
 function App() {
   return (
